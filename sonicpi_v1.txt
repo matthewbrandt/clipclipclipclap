@@ -1,0 +1,62 @@
+#clipclipclipclap @mattytwoshoes
+use_bpm 85
+use_synth :piano
+
+loop do
+  #sample :bass_thick_c, finish: 0.75
+  
+  #a-clip
+  play 60, release: 0.2, res: 0.5
+  sleep 0.25
+  play 60
+  sleep 0.5
+  
+  #clip
+  play 60
+  sleep 0.5
+  
+  #clip
+  play 60
+  sleep 0.25
+  
+  #and-a clap
+  play 60, release: 0.4
+  sleep 0.25
+  play 62, release: 2
+  sleep 0.5
+  
+  #--pause--
+  sleep 1.5
+  
+  #then
+  play 64
+  sleep 0.5
+  
+  #you've
+  play 63
+  sleep 0.25
+  
+  #got
+  play 64
+  sleep 0.5
+  
+  #1/2 pause
+  sleep 0.25
+  
+  #your
+  play 62
+  sleep 0.5
+  
+  #twitch
+  play 61
+  sleep 0.5
+  
+  #clip
+  play 60
+  sleep 0.25
+  
+  #yeah!
+  #play 68, release: 2
+  sleep 2
+end
+
